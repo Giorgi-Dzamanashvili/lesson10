@@ -1,0 +1,100 @@
+.satauri{
+	max-width: 415px;
+	width: 100%;
+	margin-top: 100px;
+	margin-left: 140px;
+}
+p {
+	font-size: 14px;
+	color: blue;
+	font-family: 'Raleway', sans-serif;
+}
+h1 {
+	font-size: 42px;
+	color: black;
+	font-family: 'Raleway', sans-serif;
+}
+.textarea-wraper{
+	resize: none;
+	margin-left: 140px;
+	margin-top: 50px;
+	height: 290px;
+	max-width: 720px;
+	width: 100%;
+	margin-right: 16px;
+	background-color: #E8E8E8;
+	border-color: #E8E8E8;
+}
+@media only screen and (max-width: 870px) {
+	.textarea-wraper{
+		width: 80%;
+	}
+	.form1{
+		width: 50%;
+	}
+}
+@media only screen and (max-width: 555px) {
+	.satauri{
+		width: 70%;
+	}
+	.send{
+		display: none;
+	}
+	button{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 478px) {
+	.satauri{
+		margin-left: 10px;
+		width: 80%;
+	}
+	.textarea-wraper{
+		margin-left: 10px;
+		width: 80%;
+	}
+	.send{
+		margin-left: 0px;
+	}
+}
+.cxrilebi{
+	max-width: 1125px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.form1{
+	max-width: 300px;
+	width: 100%;
+	margin-top: 50px;
+	height: 290px;
+	margin-top: 34px;
+}
+.form{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+button {
+	background-color: #5863F8;
+	color: white;
+	height: 60px;
+	margin-top: 16px;
+	border-color: #E8E8E8;
+}
+input{
+	height: 60px;
+	margin-top: 16px;
+	background-color: #E8E8E8;
+	border-color: #E8E8E8;
+}
+.send{
+	position: absolute;
+	color: white;
+	top: 267px;
+	left: 173px;
+	max-width: 16px;
+	width: 100%;
+	height: 16px;
+	font-size: 14px;
+}
